@@ -3,7 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  root  'line_bot#callback'
   post '/', to: 'line_bot#callback'
 
 end
